@@ -1,0 +1,7 @@
+28/05/2017 13:49:50 erreur : exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'schruwsmytdjzazz.personne' doesn't exist' in /home/schruwsmyt/www/model/etablir/etablir_sql.php:87
+Stack trace:
+#0 /home/schruwsmyt/www/model/etablir/etablir_sql.php(87): PDOStatement->execute()
+#1 /home/schruwsmyt/www/model/etablir/etablir.php(76): model\etablir_sql->rechercheIDRestaurant('16')
+#2 /home/schruwsmyt/www/controlleur/menu.php(168): model\etablir->rechercheIDRestaurant('16')
+#3 /home/schruwsmyt/www/controlleur/menu.php(43): controlleur\menu->login()
+#4 {main} utilisateur : schruwsmichael ou : model/etablir_sql/rechercheIdRestaurant
